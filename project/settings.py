@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dbname',
+        'NAME': 'amazon_goods',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'abcd@0123',
         'HOST': '127.0.0.1', # Or an IP Address that your DB is hosted on
         'PORT': '',
     },
